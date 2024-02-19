@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:aqua;
+    
+}
+
+.navbar{
+    background-color: black;
+    text-align: center;
+    color: aqua;
+
+
+
+}
+.logo{
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 2px;
+    box-shadow: -4px -4px 2px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    text-shadow: 1px 1px 0px blue;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
+}
+#l{
+    color: blue;
+}
+.navbar ul li  {
+    padding: 14px 20px;
+    display: inline-block;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: aqua;
+    transition: .4s;
+    
+}
+.navbar ul li a:hover {
+        color:black; /* Text color on hover */
+        background-color:aqua; /* Background color on hover */
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle box shadow */
+        transform: scale(1.05); /* Optional: Add a subtle scale effect */
+    }
+    h1{
+        margin-left: 10%;
+        margin-top: 10%;
+    
+        display: inline-block;
+    }
+    #lucy{
+        color: blue;
+    }
+    .desc{
+        display: inline;
+    }
+   
+
+    
+    .color{
+    background-color: transparent;
+    width: 0;
+	height: 0;
+	border-top: -700px solid transparent;
+	border-right: 600px solid black;
+	border-bottom: 400px solid transparent;
+    display: inline;
+    float: right;
+    position: absolute;
+
+    }
+    .large-triangle{
+        position: absolute;
+        top: 50%; /* Position at the middle of the .large-triangle div */
+        left: 50%; /* Position at the middle of the .large-triangle div */
+        transform: translate(-50%, -50%); /* Center the triangle */
+        width: 0;
+        height: 0;
+        border-left: 0; /* Remove left border */
+        border-right: 200px solid green; /* Adjust width as needed */
+        border-bottom: 346.4px solid transparent;
+    }
+
+    
+
+   
+   
+
+p, .btn{
+    line-height:20px;
+    font-size: 18px;
+
+   
+}
+
+
+.btn{
+    
+    font-size: small;
+    color: aqua;
+    position: absolute;
+    width: 5rem; 
+    height: 2rem; 
+    border: 1px solid black ;
+    background-color:black;
+  
+    border-radius:50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.btn:hover {
+    /* Your hover styles */
+    background-color:aqua;
+    color:black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

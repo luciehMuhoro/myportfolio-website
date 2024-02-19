@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <div>
+        <h2 class="logo"><span id="l">L</span>ucy</h2>
+
+        <div class="navbar">
+            
+            <ul>
+                <li><a href="new.html">HOME</a></li>
+                <li><a href="ABOUT.html">ABOUT</a></li>
+                <li><a href="">PROJECTS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <h1>I Offer the following services</h1>
+        <div class="services">
+            <div class="ui" onclick="toggleDescription(this)">UI/UX Designing</div>
+            <div class="web" onclick="toggleDescription(this)">Web Development</div>
+            <div class="data" onclick="toggleDescription(this)">Data Science</div>
+            <div class="base" onclick="toggleDescription(this)">Database Administration</div>
+            <div class="mob" onclick="toggleDescription(this)">Mobile App Development</div>
+            <div class="description">
+                <p id="descriptionText"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="service.js"></script>
+</body>
+</html>
